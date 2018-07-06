@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-07-05T10:19:19Z" name="example suite 1" finished-at="2018-07-05T10:19:19Z" duration-ms="239">
+    <groups>
+    </groups>
+    <test started-at="2018-07-05T10:19:19Z" name="Regression suite 1" finished-at="2018-07-05T10:19:19Z" duration-ms="239">
+      <class name="automation.Sampletest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:automation.Sampletest@7748410a]" started-at="2018-07-05T10:19:19Z" name="beforeTest" finished-at="2018-07-05T10:19:19Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f()[pri:0, instance:automation.Sampletest@7748410a]" started-at="2018-07-05T10:19:19Z" name="f" finished-at="2018-07-05T10:19:19Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:automation.Sampletest@7748410a]" started-at="2018-07-05T10:19:19Z" name="afterTest" finished-at="2018-07-05T10:19:19Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- automation.Sampletest -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- example suite 1 -->
+</testng-results>
