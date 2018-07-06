@@ -9,6 +9,7 @@ public class Sampletest {
   public void f() {
 	  
 	 System.out.println("TestNG Sample test");
+	 System.out.println("GIT Sample test");
 	  
   }
   @BeforeTest
