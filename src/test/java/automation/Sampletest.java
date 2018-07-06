@@ -10,7 +10,7 @@ public class Sampletest {
 	  
 	 System.out.println("TestNG Sample test");
 	 System.out.println("GIT Sample test");
-	 System.out.println("GIT Commit-Jenkins build test");
+	 System.out.println("GIT Commit-Jenkins- build test");
 	  
   }
   @BeforeTest
