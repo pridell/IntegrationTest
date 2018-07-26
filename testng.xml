@@ -3,7 +3,8 @@
   <test name="Regression suite 1" >
     <classes>
       <class name="automation.Sampletest"/>
-      
+      <class name= "automation.TestGetOperation"/>
+       <class name= "automation.TestPostOperation"/>
     </classes>
  </test>
 </suite>
