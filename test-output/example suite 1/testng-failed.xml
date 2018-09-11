@@ -3,11 +3,11 @@
 <suite name="Failed suite [example suite 1]">
   <test thread-count="5" name="Regression suite 1(failed)">
     <classes>
-      <class name="automation.TestGetOperation">
+      <class name="automation.GetBankBranches">
         <methods>
-          <include name="testget"/>
+          <include name="testgetBranches"/>
         </methods>
-      </class> <!-- automation.TestGetOperation -->
+      </class> <!-- automation.GetBankBranches -->
     </classes>
   </test> <!-- Regression suite 1(failed) -->
 </suite> <!-- Failed suite [example suite 1] -->

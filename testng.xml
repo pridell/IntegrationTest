@@ -5,6 +5,8 @@
       <class name="automation.Sampletest"/>
       <class name= "automation.TestGetOperation"/>
        <class name= "automation.TestPostOperation"/>
+         <class name= "automation.GetBankBranches"/>
+         <class name= "automation.CreateUser"/>
     </classes>
  </test>
 </suite>

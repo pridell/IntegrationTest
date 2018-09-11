@@ -15,6 +15,7 @@ public class TestGetOperation {
   public void testget() {
 	  
 	  RestAssured.baseURI= "http://restapi.demoqa.com/utilities/weather/city";
+	  
 	  RequestSpecification request = RestAssured.given();
 	  
 	  Response response = request.get("/Hyderabad");

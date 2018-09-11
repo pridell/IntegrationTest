@@ -1,33 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-07-26T10:59:52Z" name="example suite 1" finished-at="2018-07-26T11:00:05Z" duration-ms="12686">
+  <suite started-at="2018-08-29T07:54:39Z" name="example suite 1" finished-at="2018-08-29T07:54:52Z" duration-ms="12871">
     <groups>
     </groups>
-    <test started-at="2018-07-26T10:59:52Z" name="Regression suite 1" finished-at="2018-07-26T11:00:05Z" duration-ms="12686">
+    <test started-at="2018-08-29T07:54:39Z" name="Regression suite 1" finished-at="2018-08-29T07:54:52Z" duration-ms="12871">
       <class name="automation.Sampletest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:automation.Sampletest@87a85e1]" started-at="2018-07-26T10:59:52Z" name="beforeTest" finished-at="2018-07-26T10:59:52Z" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:automation.Sampletest@3bf54172]" started-at="2018-08-29T07:54:39Z" name="beforeTest" finished-at="2018-08-29T07:54:39Z" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:0, instance:automation.Sampletest@87a85e1]" started-at="2018-07-26T10:59:52Z" name="f" finished-at="2018-07-26T10:59:52Z" duration-ms="25" status="PASS">
+        <test-method signature="f()[pri:0, instance:automation.Sampletest@3bf54172]" started-at="2018-08-29T07:54:39Z" name="f" finished-at="2018-08-29T07:54:39Z" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:automation.Sampletest@87a85e1]" started-at="2018-07-26T11:00:05Z" name="afterTest" finished-at="2018-07-26T11:00:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:automation.Sampletest@3bf54172]" started-at="2018-08-29T07:54:52Z" name="afterTest" finished-at="2018-08-29T07:54:52Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- automation.Sampletest -->
       <class name="automation.TestGetOperation">
-        <test-method signature="testget()[pri:0, instance:automation.TestGetOperation@671a5887]" started-at="2018-07-26T10:59:52Z" name="testget" finished-at="2018-07-26T11:00:02Z" duration-ms="10294" status="PASS">
+        <test-method signature="testget()[pri:0, instance:automation.TestGetOperation@2c9a6717]" started-at="2018-08-29T07:54:39Z" name="testget" finished-at="2018-08-29T07:54:49Z" duration-ms="9417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testget -->
       </class> <!-- automation.TestGetOperation -->
+      <class name="automation.CreateUser">
+        <test-method signature="testCreateUser()[pri:0, instance:automation.CreateUser@7c663eaf]" started-at="2018-08-29T07:54:51Z" name="testCreateUser" finished-at="2018-08-29T07:54:52Z" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+      </class> <!-- automation.CreateUser -->
+      <class name="automation.GetBankBranches">
+        <test-method signature="testgetBranches()[pri:0, instance:automation.GetBankBranches@6d091cad]" started-at="2018-08-29T07:54:50Z" name="testgetBranches" finished-at="2018-08-29T07:54:51Z" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetBranches -->
+      </class> <!-- automation.GetBankBranches -->
       <class name="automation.TestPostOperation">
-        <test-method signature="testpost()[pri:0, instance:automation.TestPostOperation@5552768b]" started-at="2018-07-26T11:00:02Z" name="testpost" finished-at="2018-07-26T11:00:05Z" duration-ms="2202" status="PASS">
+        <test-method signature="testpost()[pri:0, instance:automation.TestPostOperation@7b3cde6f]" started-at="2018-08-29T07:54:49Z" name="testpost" finished-at="2018-08-29T07:54:50Z" duration-ms="998" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testpost -->
