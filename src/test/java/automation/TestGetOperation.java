@@ -1,5 +1,10 @@
 package automation;
 
+import org.scribe.builder.ServiceBuilder;
+import org.scribe.builder.api.GoogleApi;
+import org.scribe.model.OAuthRequest;
+import org.scribe.model.Verb;
+import org.scribe.oauth.OAuthService;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -38,7 +43,8 @@ public class TestGetOperation {
 	   String city = jsonPathEvaluator.get("City");
 	   System.out.println("City in Response Body : " + city );
 	   Assert.assertEquals("Hyderabad", city);
-	  
+	 //--------------------------------------
+	 
 	  
   }
 }
