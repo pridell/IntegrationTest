@@ -8,7 +8,7 @@ public class Sampletest {
   @Test
   public void f() {
 	  
-	 System.out.println("TestNG Sample test..");
+	 System.out.println("TestNG Sample test..Done");
 	 System.out.println("GIT Sample test.s");
 	 System.out.println("GIT Commit-Jenkins- build test");
 	 
